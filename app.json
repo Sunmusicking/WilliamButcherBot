@@ -11,7 +11,7 @@
     "telegram-bot",
     "pyrogram"
     ],
-    "repository": "https://github.com/TheHamkerCat/WilliamButcherBot",
+    "repository": "https://github.com/sunmusicking/williambutcherbot/blob/dev/app.json.git",
     "stack": "container",
     "env": {
         "BOT_TOKEN": {
