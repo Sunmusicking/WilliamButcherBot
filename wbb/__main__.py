@@ -107,25 +107,25 @@ home_keyboard_pm = InlineKeyboardMarkup(
     [
         [
             InlineKeyboardButton(
-                text="🍁ᴄᴏᴍᴍᴇɴᴛs", callback_data="bot_commands"
+                text="🄲𝐎𝐌𝐌𝐄𝐍𝐓𝐒🍁", callback_data="bot_commands"
             ),
             InlineKeyboardButton(
-                text="👑ʀᴇᴘᴏ",
+                text="🅁𝐄𝐏𝐎 👑",
                 url="https://t.me/KING_0F_CB",
             ),
         ],
         [
             InlineKeyboardButton(
-                text="☯️sʏsᴛᴀᴍ sᴛᴀᴛs",
+                text="🅂𝐘𝐒𝐓𝐀𝐌 🅂𝐓𝐀𝐓𝐒💡",
                 callback_data="stats_callback",
             ),
             InlineKeyboardButton(
-                text="⭕sᴜᴘᴘᴏʀᴛ", url="https://t.me/TAMIL_CHATBOX",
+                text="🅂𝐔𝐏𝐏𝐎𝐑𝐓⭕", url="https://t.me/TAMIL_CHATBOX",
             ),
         ],
         [
             InlineKeyboardButton(
-                text="👿ᴀᴅᴅ ᴍᴇ ᴜʀ ɢʀᴏᴜᴘ",
+                text="𝐀𝐃𝐃 𝐌𝐄 𝐘𝐎𝐔𝐑 𝐆𝐑𝐎𝐔𝐏🥂",
                 url=f"http://t.me/{BOT_USERNAME}?startgroup=new",
             )
         ],
@@ -143,20 +143,20 @@ keyboard = InlineKeyboardMarkup(
     [
         [
             InlineKeyboardButton(
-                text="🥂ʜᴇʟᴘ",
+                text="🄷𝐄𝐋𝐏 🍻",
                 url=f"t.me/{BOT_USERNAME}?start=help",
             ),
             InlineKeyboardButton(
-                text="👑ʀᴇᴘᴏ",
+                text="🅁𝐄𝐏𝐎 👑",
                 url="https://t.me/KING_0F_CB",
             ),
         ],
         [
             InlineKeyboardButton(
-                text="☯️sʏsᴛᴀᴍ sᴛᴀᴛs",
+                text="🅂𝐘𝐒𝐓𝐀𝐌 🅂𝐓𝐀𝐓𝐒💡",
                 callback_data="stats_callback",
             ),
-            InlineKeyboardButton(text="⭕sᴜᴘᴘᴏʀᴛ", url="https://t.me/TAMIL_CHATBOX🔞"),
+            InlineKeyboardButton(text="🅂𝐔𝐏𝐏𝐎𝐑𝐓⭕", url="https://t.me/TAMIL_CHATBOX🔞"),
         ],
     ]
 )
@@ -205,7 +205,7 @@ async def help_command(_, message):
                     [
                         [
                             InlineKeyboardButton(
-                                text="👿ᴄʟɪᴄᴋ ʜᴇʀᴇ",
+                                text="👿🄲🄻🄸🄲🄺 𝙷𝙴𝚁𝙴👿",
                                 url=f"t.me/{BOT_USERNAME}?start=help_{name}",
                             )
                         ],
@@ -315,7 +315,7 @@ General command are:
         await query.message.edit(
             text=text,
             reply_markup=InlineKeyboardMarkup(
-                [[InlineKeyboardButton("👿ʙᴀᴄᴋ", callback_data="help_back")]]
+                [[InlineKeyboardButton("👿🄱🄰🄲🄺👿", callback_data="help_back")]]
             ),
             disable_web_page_preview=True,
         )
