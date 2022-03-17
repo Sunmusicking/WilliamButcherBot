@@ -1,7 +1,7 @@
 """
 MIT License
 
-Copyright (c) 2021 TheHamkerCat
+Copyright (c) 2021 STONER ROBOT
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -107,25 +107,25 @@ home_keyboard_pm = InlineKeyboardMarkup(
     [
         [
             InlineKeyboardButton(
-                text="Commands ❓", callback_data="bot_commands"
+                text="🍁ᴄᴏᴍᴍᴇɴᴛs", callback_data="bot_commands"
             ),
             InlineKeyboardButton(
-                text="Repo 🛠",
-                url="https://github.com/thehamkercat/WilliamButcherBot",
+                text="👑ʀᴇᴘᴏ",
+                url="https://t.me/KING_0F_CB",
             ),
         ],
         [
             InlineKeyboardButton(
-                text="System Stats 🖥",
+                text="☯️sʏsᴛᴀᴍ sᴛᴀᴛs",
                 callback_data="stats_callback",
             ),
             InlineKeyboardButton(
-                text="Support 👨", url="http://t.me/WBBSupport"
+                text="⭕sᴜᴘᴘᴏʀᴛ", url="https://t.me/TAMIL_CHATBOX",
             ),
         ],
         [
             InlineKeyboardButton(
-                text="Add Me To Your Group 🎉",
+                text="👿ᴀᴅᴅ ᴍᴇ ᴜʀ ɢʀᴏᴜᴘ",
                 url=f"http://t.me/{BOT_USERNAME}?startgroup=new",
             )
         ],
@@ -143,20 +143,20 @@ keyboard = InlineKeyboardMarkup(
     [
         [
             InlineKeyboardButton(
-                text="Help ❓",
+                text="🥂ʜᴇʟᴘ",
                 url=f"t.me/{BOT_USERNAME}?start=help",
             ),
             InlineKeyboardButton(
-                text="Repo 🛠",
-                url="https://github.com/thehamkercat/WilliamButcherBot",
+                text="👑ʀᴇᴘᴏ",
+                url="https://t.me/KING_0F_CB",
             ),
         ],
         [
             InlineKeyboardButton(
-                text="System Stats 💻",
+                text="☯️sʏsᴛᴀᴍ sᴛᴀᴛs",
                 callback_data="stats_callback",
             ),
-            InlineKeyboardButton(text="Support 👨", url="t.me/WBBSupport"),
+            InlineKeyboardButton(text="⭕sᴜᴘᴘᴏʀᴛ", url="https://t.me/TAMIL_CHATBOX🔞"),
         ],
     ]
 )
@@ -205,7 +205,7 @@ async def help_command(_, message):
                     [
                         [
                             InlineKeyboardButton(
-                                text="Click here",
+                                text="👿ᴄʟɪᴄᴋ ʜᴇʀᴇ",
                                 url=f"t.me/{BOT_USERNAME}?start=help_{name}",
                             )
                         ],
@@ -315,7 +315,7 @@ General command are:
         await query.message.edit(
             text=text,
             reply_markup=InlineKeyboardMarkup(
-                [[InlineKeyboardButton("back", callback_data="help_back")]]
+                [[InlineKeyboardButton("👿ʙᴀᴄᴋ", callback_data="help_back")]]
             ),
             disable_web_page_preview=True,
         )
