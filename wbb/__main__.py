@@ -107,25 +107,25 @@ home_keyboard_pm = InlineKeyboardMarkup(
     [
         [
             InlineKeyboardButton(
-                text="🄲𝐎𝐌𝐌𝐄𝐍𝐓𝐒🍁", callback_data="bot_commands"
+                text="🍁🄲𝐎𝐌𝐌𝐄𝐍𝐓𝐒🍁", callback_data="bot_commands"
             ),
             InlineKeyboardButton(
-                text="🅁𝐄𝐏𝐎 👑",
+                text="👑 🅁𝐄𝐏𝐎 👑",
                 url="https://t.me/KING_0F_CB",
             ),
         ],
         [
             InlineKeyboardButton(
-                text="🅂𝐘𝐒𝐓𝐀𝐌 🅂𝐓𝐀𝐓𝐒💡",
+                text="⚡🅂𝐘𝐒𝐓𝐀𝐌 🅂𝐓𝐀𝐓𝐒⚡",
                 callback_data="stats_callback",
             ),
             InlineKeyboardButton(
-                text="🅂𝐔𝐏𝐏𝐎𝐑𝐓⭕", url="https://t.me/TAMIL_CHATBOX",
+                text="⭕ 🅂𝐔𝐏𝐏𝐎𝐑𝐓 ⭕", url="https://t.me/TAMIL_CHATBOX",
             ),
         ],
         [
             InlineKeyboardButton(
-                text="𝐀𝐃𝐃 𝐌𝐄 𝐘𝐎𝐔𝐑 𝐆𝐑𝐎𝐔𝐏🥂",
+                text="🥂 𝐀𝐃𝐃 𝐌𝐄 𝐘𝐎𝐔𝐑 𝐆𝐑𝐎𝐔𝐏 🥂",
                 url=f"http://t.me/{BOT_USERNAME}?startgroup=new",
             )
         ],
@@ -143,20 +143,20 @@ keyboard = InlineKeyboardMarkup(
     [
         [
             InlineKeyboardButton(
-                text="🄷𝐄𝐋𝐏 🍻",
+                text="🥂 🄷𝐄𝐋𝐏 🥂",
                 url=f"t.me/{BOT_USERNAME}?start=help",
             ),
             InlineKeyboardButton(
-                text="🅁𝐄𝐏𝐎 👑",
+                text="👑 🅁𝐄𝐏𝐎 👑",
                 url="https://t.me/KING_0F_CB",
             ),
         ],
         [
             InlineKeyboardButton(
-                text="🅂𝐘𝐒𝐓𝐀𝐌 🅂𝐓𝐀𝐓𝐒💡",
+                text="⚡🅂𝐘𝐒𝐓𝐀𝐌 🅂𝐓𝐀𝐓𝐒⚡",
                 callback_data="stats_callback",
             ),
-            InlineKeyboardButton(text="🅂𝐔𝐏𝐏𝐎𝐑𝐓⭕", url="https://t.me/TAMIL_CHATBOX🔞"),
+            InlineKeyboardButton(text="⭕ 🅂𝐔𝐏𝐏𝐎𝐑𝐓 ⭕", url="https://t.me/TAMIL_CHATBOX🔞"),
         ],
     ]
 )
