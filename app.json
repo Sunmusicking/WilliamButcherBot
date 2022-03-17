@@ -1,7 +1,7 @@
 {
-    "name": "ZaynKing_bot",
+    "name": "STONER ROBOT",
     "description": "Telegram Group Management Bot Written In Python Using Pyrogram.",
-    "repository": "https://github.com/Sunmusicking/WilliamButcherBot/edit/dev/app.json.git",
+    "repository": "https://github.com/Sunmusicking/WilliamButcherBot/edit/dev/app.json",
     "logo": "https://upload.wikimedia.org/wikipedia/commons/c/c3/Python-logo-notext.svg",
     "keywords": [
     "python3",
@@ -11,7 +11,7 @@
     "telegram-bot",
     "pyrogram"
     ],
-    "repository": "https://github.com/sunmusicking/williambutcherbot/blob/dev/app.json.git",
+    "repository": "https://github.com/Sunmusicking/WilliamButcherBot/edit/dev/app.json",
     "stack": "container",
     "env": {
         "BOT_TOKEN": {
